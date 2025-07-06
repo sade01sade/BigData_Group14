@@ -48,6 +48,6 @@ def student_management_system():
 # Run the function
 student_management_system()
 
-#OUTPUT
+# OUTPUT
 
 
