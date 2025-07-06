@@ -53,13 +53,24 @@ student_management_system()
 
 
 # Question 2:
+# Define a function to check if a string is a palindrome
 def check_palindrome():
+    # Prompt the user to enter a string
     text = input("\nEnter a string to check if it's a palindrome: ")
-    clean_text = text.replace(" ", "").lower()
-    if clean_text == clean_text[::-1]:
-        print("Yes, it is a palindrome")
-    else:
-        print("No, it is not a palindrome")
+    
+    #Remove spaces and convert to lowercase for accurate comparison
+    
+              clean_text = text.replace(" ", "").lower()
+    
+    # Check if the cleaned text is the same forwards and backwards
+        if clean_text == clean_text[::-1]:
+            print("Yes, it is a palindrome")
+      else:
+            print("No, it is not a palindrome")
 
+# Call the function to execute the palindrome check
 check_palindrome()
+
+#OUTPUT
+
 
