@@ -49,6 +49,9 @@ def student_management_system():
 student_management_system()
 
 # OUTPUT
+![question_1](https://github.com/user-attachments/assets/fe9321e5-cd12-400b-8145-bcf42b107e9e)
+
+
 # Question 2:
 def check_palindrome():
     text = input("\nEnter a string to check if it's a palindrome: ")
