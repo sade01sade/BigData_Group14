@@ -7,11 +7,11 @@ def input_student_data():
     num_courses = int(input("Enter number of courses (2 or 3): "))
     grades = []
 
-    for i in range(num_courses):
+for i in range(num_courses):
         grade = float(input(f"Enter grade for course {i + 1}: "))
         grades.append(grade)
 
-    return name, grades
+ return name, grades
 
 # Function to calculate average
 def calculate_average(grades):
@@ -58,11 +58,11 @@ def check_palindrome():
     # Prompt the user to enter a string
     text = input("\nEnter a string to check if it's a palindrome: ")
     
-    #Remove spaces and convert to lowercase for accurate comparison
+ #Remove spaces and convert to lowercase for accurate comparison
     
  clean_text = text.replace(" ", "").lower()
     
-    # Check if the cleaned text is the same forwards and backwards
+# Check if the cleaned text is the same forwards and backwards
 if clean_text == clean_text[::-1]:
             print("Yes, it is a palindrome")
       else:
