@@ -72,5 +72,7 @@ if clean_text == clean_text[::-1]:
 check_palindrome()
 
 #OUTPUT
+![Question_2](https://github.com/user-attachments/assets/94b32b6b-0e12-4797-b915-9e69768c4958)
+
 
 
