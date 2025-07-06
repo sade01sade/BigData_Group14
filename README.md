@@ -60,10 +60,10 @@ def check_palindrome():
     
     #Remove spaces and convert to lowercase for accurate comparison
     
-              clean_text = text.replace(" ", "").lower()
+ clean_text = text.replace(" ", "").lower()
     
     # Check if the cleaned text is the same forwards and backwards
-        if clean_text == clean_text[::-1]:
+if clean_text == clean_text[::-1]:
             print("Yes, it is a palindrome")
       else:
             print("No, it is not a palindrome")
