@@ -1,6 +1,6 @@
 # BigData_Group14
 #QUESTION_1
-'''
+
 # Function to input student name and grades
 def input_student_data():
     name = input("Enter the student's name: ")
@@ -47,6 +47,7 @@ def student_management_system():
 
 # Run the function
 student_management_system()
-'''
+
+#OUTPUT
 
 
