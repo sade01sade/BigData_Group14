@@ -1,5 +1,5 @@
 # BigData_Group14
-#QUESTION_1
+#QUESTION_1:
 
 # Function to input student name and grades
 def input_student_data():
@@ -49,5 +49,14 @@ def student_management_system():
 student_management_system()
 
 # OUTPUT
+# Question 2:
+def check_palindrome():
+    text = input("\nEnter a string to check if it's a palindrome: ")
+    clean_text = text.replace(" ", "").lower()
+    if clean_text == clean_text[::-1]:
+        print("Yes, it is a palindrome")
+    else:
+        print("No, it is not a palindrome")
 
+check_palindrome()
 
