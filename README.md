@@ -1,13 +1,19 @@
 # GROUP 14 Members:
-1.RUTARO NGABONZIZA Didace 26591
+1. RUTARO NGABONZIZA Didace 26591
+
 2.
+
 3.
+
 4.
+
 5.
+
 6.
+
 ## Instructor: Dr. Eric Maniraguha Institution: Adventist University of Central Africa Course Name: Introduction to Big Data Analytics Course Code: INSY 8413. Date: 6th, July,2025.
 
-# 🧠 Python Quiz – Big Data Analytics (INSY 8413)
+# 🧠 Python Work – Big Data Analytics (INSY 8413)
 This project contains two questions we did as group14 which are Qn1 and Qn2.
 
 ## ❓ Question I: CREATE STUDENT MANAGEMENT SYSTEM FUNCTION
