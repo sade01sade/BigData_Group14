@@ -16,18 +16,19 @@
 
 ## Instructor: Dr. Eric Maniraguha Institution: Adventist University of Central Africa Course Name: Introduction to Big Data Analytics Course Code: INSY 8413. Date: 6th, July,2025.
 
-# 🧠 Python Work – Big Data Analytics (INSY 8413)
+# 🧠 $${\color{purple}\text{Python Work – Big Data Analytics (INSY 8413)}}$$
+
 This project contains two questions we did as group14 which are Qn1 and Qn2.
 
-## ❓ Question I: CREATE STUDENT MANAGEMENT SYSTEM FUNCTION
+## ❓$${\color{red}\text{Question I: CREATE STUDENT MANAGEMENT SYSTEM FUNCTION}}$$
 
-### ✅ Requirements:
+### ✅ $${\color{blue}\text{Requirements:}}$$
 * inputs student information
 * calculates the average of the marks
 * stores and displays the student's information along with their average grade
 * uses separate functions for each operation
 
-### 🧾 Solution (Python):
+### 🧾 $${\color{green}\text{Solution (Python):}}$$
 ```python # Function to input student name and grades
 def input_student_data():
     name = input("Enter the student's name: ")
@@ -78,20 +79,20 @@ student_management_system()
 
 
 
-### ✨OUTPUT
+### ✨ $${\color{red}\text{OUTPUT}}$$
 ![question_1](https://github.com/user-attachments/assets/fe9321e5-cd12-400b-8145-bcf42b107e9e)
 
 
-## ❓ Question II: Palindrome Checker
+## ❓ $${\color{red}\text{Question II: Palindrome Checker}}$$
 
 ### Description:
 Write a function that asks the user to input a string and checks if the string is a palindrome (reads the same forwards and backwards).Print "Yes,it is a palindrone" or "No, it is not a palindrone"
 
-### ✅ Requirements:
+### ✅ $${\color{blue}\text{Requirements:}}$$
 * Use input() to get user input.
 * Use a function to perform the task.
   
-### 🧾 Solution (Python):
+### 🧾 $${\color{green}\text{Solution (Python):}}$$
 ```python def check_palindrome():
     text = input("\nEnter a string to check if it's a palindrome: ")
     clean_text = text.replace(" ", "").lower()
@@ -104,7 +105,7 @@ check_palindrome()
 ```
     
 
-### ✨OUTPUT
+### ✨ $${\color{red}\text{OUTPUT}}$$
 ![Question_2](https://github.com/user-attachments/assets/c00b4358-2072-487b-a5ee-8aa2086c3d65)
 
 
