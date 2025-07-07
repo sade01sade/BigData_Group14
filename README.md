@@ -1,17 +1,35 @@
-# BigData_Group14
-#QUESTION_1:
+#GROUP 14 Members:
+1.RUTARO NGABONZIZA Didace 26591
+2.
+3.
+4.
+5.
+6.
+##Instructor: Dr. Eric Maniraguha Institution: Adventist University of Central Africa Course Name: Introduction to Big Data Analytics Course Code: INSY 8413. Date: 6th, July,2025.
 
+# 🧠 Python Quiz – Big Data Analytics (INSY 8413)
+This project contains two questions we did as group14 which are Qn1 and Qn2.
+
+## ❓ Question I: CREATE STUDENT MANAGEMENT SYSTEM FUNCTION
+
+### ✅ Requirements:
+* inputs student information
+* calculates the average of the marks
+* stores and displays the student's information along with their average grade
+* uses separate functions for each operation
+
+## 🧾 Solution (Python Code):
 # Function to input student name and grades
 def input_student_data():
     name = input("Enter the student's name: ")
     num_courses = int(input("Enter number of courses (2 or 3): "))
     grades = []
 
-for i in range(num_courses):
+    for i in range(num_courses):
         grade = float(input(f"Enter grade for course {i + 1}: "))
         grades.append(grade)
 
- return name, grades
+    return name, grades
 
 # Function to calculate average
 def calculate_average(grades):
@@ -47,6 +65,8 @@ def student_management_system():
 
 # Run the function
 student_management_system()
+
+
 
 # OUTPUT
 ![question_1](https://github.com/user-attachments/assets/fe9321e5-cd12-400b-8145-bcf42b107e9e)
