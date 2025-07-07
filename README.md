@@ -20,7 +20,7 @@
 
 This project contains two questions we did as group14 which are Qn1 and Qn2.
 
-## ❓$${\color{red}\text{Question I: CREATE STUDENT MANAGEMENT SYSTEM FUNCTION}}$$
+## ❓ $${\color{red}\text{Question I: CREATE STUDENT MANAGEMENT SYSTEM FUNCTION}}$$
 
 ### ✅ $${\color{blue}\text{Requirements:}}$$
 * inputs student information
