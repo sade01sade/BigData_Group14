@@ -1,11 +1,11 @@
-#GROUP 14 Members:
+# GROUP 14 Members:
 1.RUTARO NGABONZIZA Didace 26591
 2.
 3.
 4.
 5.
 6.
-##Instructor: Dr. Eric Maniraguha Institution: Adventist University of Central Africa Course Name: Introduction to Big Data Analytics Course Code: INSY 8413. Date: 6th, July,2025.
+## Instructor: Dr. Eric Maniraguha Institution: Adventist University of Central Africa Course Name: Introduction to Big Data Analytics Course Code: INSY 8413. Date: 6th, July,2025.
 
 # 🧠 Python Quiz – Big Data Analytics (INSY 8413)
 This project contains two questions we did as group14 which are Qn1 and Qn2.
@@ -19,7 +19,7 @@ This project contains two questions we did as group14 which are Qn1 and Qn2.
 * uses separate functions for each operation
 
 ## 🧾 Solution (Python Code):
-# Function to input student name and grades
+``` # Function to input student name and grades
 def input_student_data():
     name = input("Enter the student's name: ")
     num_courses = int(input("Enter number of courses (2 or 3): "))
@@ -65,33 +65,37 @@ def student_management_system():
 
 # Run the function
 student_management_system()
+```
 
 
 
-# OUTPUT
+## OUTPUT
 ![question_1](https://github.com/user-attachments/assets/fe9321e5-cd12-400b-8145-bcf42b107e9e)
 
 
-# Question 2:
-# Define a function to check if a string is a palindrome
-def check_palindrome():
-    # Prompt the user to enter a string
+# ❓ Question II: Palindrome Checker
+
+## Description:
+Write a function that asks the user to input a string and checks if the string is a palindrome (reads the same forwards and backwards).Print "Yes,it is a palindrone" or "No, it is not a palindrone"
+
+## ✅ Requirements:
+* Use input() to get user input.
+* Use a function to perform the task.
+  
+## 🧾 Solution (Python Code):
+```def check_palindrome():
     text = input("\nEnter a string to check if it's a palindrome: ")
-    
- #Remove spaces and convert to lowercase for accurate comparison
-    
- clean_text = text.replace(" ", "").lower()
-    
-# Check if the cleaned text is the same forwards and backwards
-if clean_text == clean_text[::-1]:
-            print("Yes, it is a palindrome")
-      else:
-            print("No, it is not a palindrome")
+    clean_text = text.replace(" ", "").lower()
+    if clean_text == clean_text[::-1]:
+        print("Yes, it is a palindrome")
+    else:
+        print("No, it is not a palindrome")
 
-# Call the function to execute the palindrome check
 check_palindrome()
+```
+    
 
-#OUTPUT
+# OUTPUT
 ![Question_2](https://github.com/user-attachments/assets/c00b4358-2072-487b-a5ee-8aa2086c3d65)
 
 
