@@ -1,4 +1,4 @@
-# GROUP 14 Members:
+# 👥GROUP 14 Members:
 1. RUTARO NGABONZIZA Didace 26591
 
 2.
@@ -24,7 +24,7 @@ This project contains two questions we did as group14 which are Qn1 and Qn2.
 * stores and displays the student's information along with their average grade
 * uses separate functions for each operation
 
-## 🧾 Solution (Python Code):
+## 🧾 Solution (Python):
 ```python # Function to input student name and grades
 def input_student_data():
     name = input("Enter the student's name: ")
@@ -75,7 +75,7 @@ student_management_system()
 
 
 
-## OUTPUT
+## ✨OUTPUT
 ![question_1](https://github.com/user-attachments/assets/fe9321e5-cd12-400b-8145-bcf42b107e9e)
 
 
@@ -88,7 +88,7 @@ Write a function that asks the user to input a string and checks if the string i
 * Use input() to get user input.
 * Use a function to perform the task.
   
-## 🧾 Solution (Python Code):
+## 🧾 Solution (Python):
 ```python def check_palindrome():
     text = input("\nEnter a string to check if it's a palindrome: ")
     clean_text = text.replace(" ", "").lower()
@@ -101,7 +101,7 @@ check_palindrome()
 ```
     
 
-# OUTPUT
+# ✨OUTPUT
 ![Question_2](https://github.com/user-attachments/assets/c00b4358-2072-487b-a5ee-8aa2086c3d65)
 
 
