@@ -25,7 +25,7 @@ This project contains two questions we did as group14 which are Qn1 and Qn2.
 * uses separate functions for each operation
 
 ## 🧾 Solution (Python Code):
-``` # Function to input student name and grades
+```python # Function to input student name and grades
 def input_student_data():
     name = input("Enter the student's name: ")
     num_courses = int(input("Enter number of courses (2 or 3): "))
@@ -89,7 +89,7 @@ Write a function that asks the user to input a string and checks if the string i
 * Use a function to perform the task.
   
 ## 🧾 Solution (Python Code):
-```def check_palindrome():
+```python def check_palindrome():
     text = input("\nEnter a string to check if it's a palindrome: ")
     clean_text = text.replace(" ", "").lower()
     if clean_text == clean_text[::-1]:
