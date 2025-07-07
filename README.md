@@ -1,4 +1,4 @@
-# 👥$${\color{red}GROUP\ 14\ Members:}$$     
+# 👥 $${\color{red}\text{GROUP 14 Members:}}$$    
 
  1. RUTARO NGABONZIZA Didace 26591
 
