@@ -1,5 +1,4 @@
-# 👥$${\color{red}GROUP\ 14\ Members:\ red.}$$     
-$${\color{red}This\ text\ is\ red.}$$
+# 👥$${\color{red}GROUP\ 14\ Members:}$$     
 
  1. RUTARO NGABONZIZA Didace 26591
 
